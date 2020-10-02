@@ -1,0 +1,18 @@
+window.esSummaries = [
+/*
+['버튼 이름', '입력될 편집 요약', '툴팁으로 뜨는 설명', '사소한 편집 여부(0/1/undefined)', '상용구 넣기 전에 요약 지우기(0/1, 생략 가능)']
+위와 같은 형식으로 새로운 버튼을 추가할 수 있습니다.
+마지막 줄을 제외한 줄 끝에 쉼표가 들어가 있는지 확인해 주세요.
+위의 형식 대신 '텍스트'의 형태로 임의의 글을 입력하면 그 글이 그대로, 'br'을 입력하면 줄바꿈이 삽입됩니다.
+*/
+    ['comm', 'Idea', 'added comment', 0, 0],
+    ['categor', 'Category', 'Added category', 1],
+    ['Wrong', 'replace', 'replaced wrong word', 1],
+    ['clean', 'clean', 'clean up'],
+    ['disam', 'disambig', 'added disambig', 1],
+    ['RV', 'Revert vandalism', 'Reverted Vandal', 1, 1],
+    ['SD', 'speedydel', 'added speedy del', 1, 1],
+    ['~~~~', 'signature', 'added signature of other's', 1, 1],
+    ['rq', 'request', 'In request', 1, 1],
+    ['addtemp', 'template', 'added template ', 1, 1],
+];
